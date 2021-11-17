@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Desea poner a responder una propiedad?",
+      "type": "text",
+      "id": "Field_1p8ur7m"
+    },
+    {
+      "values": [
+        {
+          "label": "Acepto",
+          "value": "si"
+        },
+        {
+          "label": "Rechazo",
+          "value": "no"
+        }
+      ],
+      "type": "radio",
+      "id": "Field_1k9owbi",
+      "key": "aceptoPropiedad",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "form4"
+}

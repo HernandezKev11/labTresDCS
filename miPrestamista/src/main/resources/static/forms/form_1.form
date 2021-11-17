@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Registro de solicitante ",
+      "type": "text",
+      "id": "Field_1a7plzv"
+    },
+    {
+      "label": "Nombre",
+      "type": "textfield",
+      "id": "Field_1lzof37",
+      "key": "nombre"
+    },
+    {
+      "label": "Apellidos",
+      "type": "textfield",
+      "id": "Field_0w362wb",
+      "key": "apellidos"
+    },
+    {
+      "values": [
+        {
+          "label": "Independiente ",
+          "value": "independiente"
+        },
+        {
+          "label": "Planilla",
+          "value": "planilla"
+        }
+      ],
+      "label": "Tipo de empleado",
+      "type": "radio",
+      "id": "Field_06lqlbt",
+      "key": "tipo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Ingresos mensuales",
+      "type": "number",
+      "id": "Field_1xhakit",
+      "key": "ingresos"
+    }
+  ],
+  "type": "default",
+  "id": "form1"
+}

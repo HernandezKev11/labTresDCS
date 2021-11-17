@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Contrato",
+      "type": "text",
+      "id": "Field_1pqqil9"
+    },
+    {
+      "label": "Monto solicitado",
+      "type": "textfield",
+      "id": "Field_00dzf8h",
+      "key": "montoPrestamo"
+    },
+    {
+      "label": "Firma",
+      "type": "checkbox",
+      "id": "Field_1vk25n2",
+      "key": "firma"
+    }
+  ],
+  "type": "default",
+  "id": "form3"
+}
